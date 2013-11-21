@@ -54,7 +54,7 @@ public class TestaTravessura {
 			// Apenas escolhi um campo qualquer para dar o submit
 			tel.submit();
 
-			/* Estou forçando o navegador vai esperar por 10 segundos até encontrar o campo com 
+			/* Estou forçando o navegador a esperar por 10 segundos até encontrar o campo com 
 			 * a classe css "postaction_thankyou" (que se encontra na página de sucesso).
 			 * Isso foi necessário para que o loop funcione corretamente, pois o navegador
 			 * não esperava a página completar a requisição para iterar. */
